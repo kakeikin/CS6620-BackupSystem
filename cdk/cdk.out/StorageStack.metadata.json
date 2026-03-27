@@ -1,0 +1,170 @@
+{
+  "/StorageStack/Custom::S3AutoDeleteObjectsCustomResourceProvider": [
+    {
+      "type": "aws:cdk:is-custom-resource-handler-customResourceProvider",
+      "data": true
+    }
+  ],
+  "/StorageStack/BootstrapVersion": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "BootstrapVersion"
+    }
+  ],
+  "/StorageStack/CheckBootstrapVersion": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "CheckBootstrapVersion"
+    }
+  ],
+  "/StorageStack/SrcBucket/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "SrcBucket613E28A1"
+    },
+    {
+      "type": "aws:cdk:analytics:mixin",
+      "data": {
+        "mixin": "aws-cdk-lib.aws_s3.mixins.BucketAutoDeleteObjects"
+      }
+    }
+  ],
+  "/StorageStack/Custom::S3AutoDeleteObjectsCustomResourceProvider/Role": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "CustomS3AutoDeleteObjectsCustomResourceProviderRole3B1BD092"
+    }
+  ],
+  "/StorageStack/Custom::S3AutoDeleteObjectsCustomResourceProvider/Handler": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "CustomS3AutoDeleteObjectsCustomResourceProviderHandler9D90184F"
+    }
+  ],
+  "/StorageStack/BucketNotificationsHandler050a0587b7544547bf325f094a3db834/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "BucketNotificationsHandler050a0587b7544547bf325f094a3db8347ECC3691"
+    }
+  ],
+  "/StorageStack/DstBucket/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "DstBucket3E241BF2"
+    },
+    {
+      "type": "aws:cdk:analytics:mixin",
+      "data": {
+        "mixin": "aws-cdk-lib.aws_s3.mixins.BucketAutoDeleteObjects"
+      }
+    }
+  ],
+  "/StorageStack/TableT/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "TableT6F931A8A"
+    }
+  ],
+  "/StorageStack/CDKMetadata/Default": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "CDKMetadata"
+    }
+  ],
+  "/StorageStack/CDKMetadata/Condition": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "CDKMetadataAvailable"
+    }
+  ],
+  "/StorageStack/Exports/Output{\"Fn::GetAtt\":[\"SrcBucket613E28A1\",\"Arn\"]}": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "ExportsOutputFnGetAttSrcBucket613E28A1ArnA325E7F5"
+    }
+  ],
+  "/StorageStack/Exports/Output{\"Fn::GetAtt\":[\"DstBucket3E241BF2\",\"Arn\"]}": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "ExportsOutputFnGetAttDstBucket3E241BF2ArnBE57F3A8"
+    }
+  ],
+  "/StorageStack/Exports/Output{\"Fn::GetAtt\":[\"TableT6F931A8A\",\"Arn\"]}": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "ExportsOutputFnGetAttTableT6F931A8AArnE0124D7E"
+    }
+  ],
+  "/StorageStack/Exports/Output{\"Ref\":\"DstBucket3E241BF2\"}": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "ExportsOutputRefDstBucket3E241BF2405F2440"
+    }
+  ],
+  "/StorageStack/Exports/Output{\"Ref\":\"SrcBucket613E28A1\"}": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "ExportsOutputRefSrcBucket613E28A1DBA86BB1"
+    }
+  ],
+  "/StorageStack/Exports/Output{\"Ref\":\"TableT6F931A8A\"}": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "ExportsOutputRefTableT6F931A8A6EC19EBB"
+    }
+  ],
+  "/StorageStack/SrcBucket/Policy/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "SrcBucketPolicy1BB10E09"
+    },
+    {
+      "type": "aws:cdk:analytics:mixin",
+      "data": {
+        "mixin": "aws-cdk-lib.aws_s3.mixins.BucketPolicyStatements"
+      }
+    }
+  ],
+  "/StorageStack/SrcBucket/AutoDeleteObjectsCustomResource/Default": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "SrcBucketAutoDeleteObjectsCustomResource2008B6A8"
+    }
+  ],
+  "/StorageStack/SrcBucket/Notifications/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "SrcBucketNotifications33024ACF"
+    }
+  ],
+  "/StorageStack/BucketNotificationsHandler050a0587b7544547bf325f094a3db834/Role/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "BucketNotificationsHandler050a0587b7544547bf325f094a3db834RoleB6FB88EC"
+    }
+  ],
+  "/StorageStack/DstBucket/Policy/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "DstBucketPolicy94083DBE"
+    },
+    {
+      "type": "aws:cdk:analytics:mixin",
+      "data": {
+        "mixin": "aws-cdk-lib.aws_s3.mixins.BucketPolicyStatements"
+      }
+    }
+  ],
+  "/StorageStack/DstBucket/AutoDeleteObjectsCustomResource/Default": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "DstBucketAutoDeleteObjectsCustomResource9913C875"
+    }
+  ],
+  "/StorageStack/BucketNotificationsHandler050a0587b7544547bf325f094a3db834/Role/DefaultPolicy/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "BucketNotificationsHandler050a0587b7544547bf325f094a3db834RoleDefaultPolicy2CF63D36"
+    }
+  ]
+}

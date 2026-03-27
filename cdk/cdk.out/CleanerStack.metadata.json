@@ -1,0 +1,56 @@
+{
+  "/CleanerStack/BootstrapVersion": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "BootstrapVersion"
+    }
+  ],
+  "/CleanerStack/CheckBootstrapVersion": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "CheckBootstrapVersion"
+    }
+  ],
+  "/CleanerStack/CleanerFn/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "CleanerFn31DF6A13"
+    }
+  ],
+  "/CleanerStack/CleanerScheduleRule/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "CleanerScheduleRule1AF1C964"
+    }
+  ],
+  "/CleanerStack/CleanerScheduleRule/AllowEventRuleCleanerStackCleanerFn03270A73": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "CleanerScheduleRuleAllowEventRuleCleanerStackCleanerFn03270A7371BC5E12"
+    }
+  ],
+  "/CleanerStack/CDKMetadata/Default": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "CDKMetadata"
+    }
+  ],
+  "/CleanerStack/CDKMetadata/Condition": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "CDKMetadataAvailable"
+    }
+  ],
+  "/CleanerStack/CleanerFn/ServiceRole/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "CleanerFnServiceRole087910FA"
+    }
+  ],
+  "/CleanerStack/CleanerFn/ServiceRole/DefaultPolicy/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "CleanerFnServiceRoleDefaultPolicy897CD8A2"
+    }
+  ]
+}
