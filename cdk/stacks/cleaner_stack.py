@@ -33,7 +33,7 @@ class CleanerStack(Stack):
             },
         )
 
-        dst_bucket.grant_read_write(self.cleaner_fn)
+        dst_bucket.grant_delete(self.cleaner_fn)
         table.grant_read_write_data(self.cleaner_fn)
 
         # Scheduled rule: every 1 minute
